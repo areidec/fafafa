@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.53" height="50" viewBox="0 0 27.53 50">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(255,255,255,0);stroke:rgba(0,0,0,0)}.cls-2{fill:#022658}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="Group" transform="translate(-75 -117)">
+        <g id="spacer" class="cls-1">
+            <path d="M0 0h27.53v50H0z" class="cls-3" transform="translate(75 117)"/>
+            <path d="M.5.5h26.53v49H.5z" class="cls-4" transform="translate(75 117)"/>
+        </g>
+        <g id="back" transform="translate(20.887 116.999)">
+            <path d="M54.844 26.786l22.485 22.477A2.525 2.525 0 0 0 80.9 45.7L60.2 25 80.9 4.308A2.526 2.526 0 1 0 77.326.739L54.842 23.216a2.548 2.548 0 0 0 .002 3.57z" class="cls-2"/>
+        </g>
+    </g>
+</svg>

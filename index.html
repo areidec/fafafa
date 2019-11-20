@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Philip Morris Magic ball</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<meta name="csrf-param" content="a">
+	<meta name="csrf-token" content="b">
+	
+	<link rel="shortcut icon" href="favicon/favicon.png" type="image/png">
+	<link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-touch-icon-114x114.png">
+	<link rel="prefetch" href="video/video.mp4" as="video" type="video/mp4">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+
+	<script>
+		let vh = window.innerHeight * 0.01;
+		document.documentElement.style.setProperty('--vh', `${vh}px`);
+	</script>
+
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="js/libs/jquery-3.2.1.min.js"></script>
+	<script src="js/common.js"></script>
+</head>
+
+<body class="opacity fix-vh">
+	<div class="change-rotation">
+		<img src="./img/icon/rotate-phone.svg" alt="phone-rotate">
+		<p>Переверните экран<br> в вертикальное положение</p>
+	</div>
+	<header class="header">
+		<a href="/" class="header__return js-return">
+			<img src="img/icon/arrow.svg" alt="">
+		</a>
+		<button class="header__lk js-lk">
+			<img src="img/icon/lk.svg" alt="">
+		</button>
+	</header>
+
+	<main class="main">
+		<div class="main__wrap-group js-group-3 display visible">
+			<div class="main__scale-wrap">
+				<img src="img/icon/lord.svg" alt="" class="main__lord-img">
+				<div class="main__titles main-titles">
+					<div class="main-titles__wrap js-group-1">
+						<h1>Приветствую!</h1>
+						<h2>Как я могу к тебе обращаться?</h2>
+					</div>
+					<div class="main-titles__wrap js-group-2">
+						<h1 class="js-user-name"></h1>
+						<h2>Я могу ответить <br> на любой твой вопрос?</h2>
+					</div>
+				</div>
+			</div>
+			<div class="main__form form">
+				<div class="form__formfield formfield js-group-1">
+					<input name="name" autocomplete="off" type="text" class="formfield__input h1 js-input-val" value="" id="name" tabindex="1" placeholder="">
+					<a class="link" target="_blank" href="https://dailyscan.ru/static/premium-one_dailyscan_rules.pdf">Правила игры</a> 
+				</div>
+				<div class="form__textarea formfield js-group-2">
+					<div class="text-area">
+						<textarea class="formfield__textarea js-textarea" rows="1" name="textarea" autocomplete="off" id="" maxlength="75" placeholder="Напиши свой вопрос"></textarea>
+					</div>
+					<p class="formfield__length">Осталось символов: <span class="js-question-length">75</span>/75</p>
+					<a class="link" target="_blank" href="https://dailyscan.ru/static/premium-one_dailyscan_rules.pdf">Правила игры</a> 
+				</div>
+			</div>
+			<button class="main__send btn btn_bottom js-send" type="button" disabled="disabled">
+				<span>Далее</span>
+			</button>
+		</div>
+		<div class="main__ball-wrap wraper js-ball-wraper">
+			<img class="wraper__ball js-clear-ball js-sing-green" src="img/balls/b-green.png" alt="">
+			<img class="wraper__ball js-clear-ball js-sing-red" src="img/balls/b-red.png" alt="">
+			<img class="wraper__ball js-clear-ball js-sing-white" src="img/balls/b-white.png" alt="">
+			<img class="wraper__ball js-clear-ball display visible js-ball" src="img/balls/ball.png" alt="">
+			<video class="wraper__video js-video" playsinline muted>
+				<source src="video/video.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="main__wrap-group scale js-group-4">
+			<div class="main__repeat-title display visible js-sub-group-4">
+				<h3>Твой вопрос:</h3>
+				<blockquote class="js-repeat-question"></blockquote>
+			</div>
+			<span class="main__note">Ответы не являются призывом к действию</span>
+		</div>
+		<div class="main__wrap-group js-group-5">
+			<div class="main__repeat-title js-answer display visible">
+				<h3>Ответ:</h3>
+				<blockquote></blockquote>
+			</div>
+			<div class="main__ask js-ask-100-rub">
+				<p>Сегодня судьба тебе улыбнулась, хочешь 100₽ на телефон?</p>
+			</div>
+			<a href="/" class="main__agree btn js-btn-agree">
+				<span>Хочу</span>
+			</a>
+			<button class="main__ask-again btn btn_bottom js-return">
+				<span>Спросить ещё</span>
+			</button>
+		</div>
+		<div class="video-bg"></div>
+	</main>
+	<button class="main__ask-again btn btn_bottom btn_answer visible js-show-answer">
+		<span>Узнать ответ</span>
+	</button>
+	<div class="popup js-popup fix-vh">
+		<div class="popup__history history">
+			<button class="popup__close js-close">
+				<img src="img/icon/close.svg" alt="">
+			</button>
+			<h1>Мои вопросы</h1>
+			<div class="history__full-block"></div>
+		</div>
+	</div>
+
+</body>
+</html>

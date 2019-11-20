@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.879" height="49.879" viewBox="0 0 49.879 49.879">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(255,255,255,0);stroke:rgba(0,0,0,0)}.cls-2{fill:#022658}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="Group" transform="translate(-625.324 -117.121)">
+        <g id="spacer" class="cls-1">
+            <path d="M0 0h49.879v49.879H0z" class="cls-3" transform="translate(625.324 117.121)"/>
+            <path d="M.5.5h48.879v48.879H.5z" class="cls-4" transform="translate(625.324 117.121)"/>
+        </g>
+        <g id="user_2_" data-name="user (2)" transform="translate(625.324 117.121)">
+            <g id="Group_7" data-name="Group 7">
+                <path id="Path_379" d="M42.574 32.244A24.844 24.844 0 0 0 33.1 26.3a14.418 14.418 0 1 0-16.316 0A24.979 24.979 0 0 0 0 49.879h3.9a21.043 21.043 0 1 1 42.085 0h3.9a24.777 24.777 0 0 0-7.311-17.635zm-17.635-7.3a10.521 10.521 0 1 1 10.522-10.526 10.533 10.533 0 0 1-10.522 10.521z" class="cls-2" data-name="Path 379"/>
+            </g>
+        </g>
+    </g>
+</svg>

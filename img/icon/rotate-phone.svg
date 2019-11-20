@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90.324" height="82.922" viewBox="0 0 90.324 82.922">
+    <defs>
+        <style>
+            .cls-1,.cls-2,.cls-6{fill:none}.cls-1,.cls-2,.cls-3{stroke:#022658}.cls-1,.cls-2{stroke-width:2px}.cls-2{stroke-linecap:round}.cls-3{fill:#fff;stroke-width:1.3px}.cls-4{fill:#022658}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="turn_phone_icon" data-name="turn phone icon" transform="translate(-2)">
+        <g id="phone" transform="rotate(-23 43.362 -28.453)">
+            <g id="Rectangle_24" class="cls-1" data-name="Rectangle 24">
+                <rect width="37.599" height="74.123" class="cls-5" rx="5"/>
+                <rect width="35.599" height="72.123" x="1" y="1" class="cls-6" rx="4"/>
+            </g>
+            <path id="Line_1" d="M0 0h15.04" class="cls-2" data-name="Line 1" transform="translate(11.28 8.057)"/>
+            <g id="Ellipse_40" class="cls-3" data-name="Ellipse 40" transform="translate(15.039 62.307)">
+                <circle cx="3.76" cy="3.76" r="3.76" class="cls-5"/>
+                <circle cx="3.76" cy="3.76" r="3.11" class="cls-6"/>
+            </g>
+        </g>
+        <path id="Path_8148" d="M1.065 0A1.065 1.065 0 0 1 2.13 1.065v3.891a13.82 13.82 0 0 1 23.433 9.956 1.065 1.065 0 1 1-2.13 0A11.717 11.717 0 0 0 3.074 7l4.719 1.577a1.066 1.066 0 0 1-.674 2.023L.729 8.47A1.065 1.065 0 0 1 0 7.456V1.065A1.065 1.065 0 0 1 1.065 0z" class="cls-4" data-name="Path 8148" transform="rotate(45 22.122 95.84)"/>
+        <path id="Path_8149" d="M1.055 0a1.055 1.055 0 0 1 1.054 1.055 11.6 11.6 0 0 0 20.158 7.83L17.6 7.328a1.056 1.056 0 1 1 .667-2l6.323 2.105a1.055 1.055 0 0 1 .721 1v6.328a1.055 1.055 0 0 1-2.109 0v-3.849A13.684 13.684 0 0 1 0 1.055 1.054 1.054 0 0 1 1.055 0z" class="cls-4" data-name="Path 8149" transform="rotate(45 -48.683 38.813)"/>
+    </g>
+</svg>

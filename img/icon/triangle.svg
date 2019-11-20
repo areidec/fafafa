@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="198" viewBox="0 0 198 198">
+  <defs>
+    <filter id="Polygon_3" x="-53" y="-18" width="302" height="280" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="23" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.698"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_1">
+      <rect width="198" height="198"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <g id="Group_8" data-name="Group 8" transform="translate(6596 -9273)">
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(-6596 9273)" fill="none" stroke="#fcfdff" stroke-width="1" opacity="0.6">
+        <circle cx="99" cy="99" r="99" stroke="none"/>
+        <circle cx="99" cy="99" r="98.5" fill="none"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -6596, 9273)" filter="url(#Polygon_3)">
+        <path id="Polygon_3-2" data-name="Polygon 3" d="M82,0l82,142H0Z" transform="translate(180 193) rotate(180)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
